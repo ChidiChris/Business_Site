@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("images/Backdrop.png");
+    background-size: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 50%;
+    /* position: absolute; */
+}
+
+p {
+    font-size: xx-small;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: large;
+}
+
+.omo  {
+    /* margin-top: 50em; */
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin: auto; */
+    /* margin-left: 20rem; */
+    position: absolute;
+    margin-top: 4rem;
+    /* width: 25%; */
+    height: 80%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.login_form  {
+    /* margin-top: 50em; */
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-left: 20rem;
+    position: absolute;
+    margin-top: 4rem;
+    /* width: 25%; */
+    height: 80%;
+    margin-right: 2em;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.space {
+    /* display: flex; */
+    margin-top: 0px;
+}
+
+input.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 30px;
+    width: 50%;
+    color: black;
+    border: 1px solid;
+    margin-left: +0em;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+.omo .login_form .width {
+    background-color: black;
+    width: 40%;
+    display: none;
+}
+
+.omo .side {
+    padding: 0 3rem;
+    height: 100vh;
+    margin-bottom: 0rem;
+    /* margin-top: 8rem; */
+    position: absolute;
+}
+
+.side img {
+    width: 45%;
+    height: 70%;
+    /* margin-left: 40rem; */
+    /* margin-top: -6rem; */
+    border-radius: 0px 20px 20px 0px;
+    height: fit-content;
+    /* display: grid; */
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin: auto;
+    margin-left: 20rem;
+    /* position: absolute; */
+    margin-top: 7rem;
+    /* width: 25%; */
+    height: 65%;
+}
+
+/* .omo {
+    width: 25%;
+    height: 80%;
+    margin-left: 40rem;
+    margin-top: 4rem;
+} */
